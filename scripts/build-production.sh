@@ -17,11 +17,6 @@ rsync -a \
   --exclude '.cursor' \
   --exclude 'docs' \
   --exclude 'CLAUDE.md' \
-  --exclude '/how-we-work.html' \
-  --exclude '/audit.html' \
-  --exclude '/bandlink.html' \
-  --exclude '/vi.html' \
-  --exclude '/yandex-music.html' \
   "$ROOT/" "$SITE_DIR/"
 
 cp "$ROOT/robots.production.txt" "$SITE_DIR/robots.txt"

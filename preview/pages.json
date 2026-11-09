@@ -1,30 +1,4 @@
 {
   "token": "k7n2-a9q4-p3xr",
-  "pages": [
-    {
-      "file": "vi.html",
-      "titleRu": "Ви.ру",
-      "titleEn": "Vse Instrumenty"
-    },
-    {
-      "file": "yandex-music.html",
-      "titleRu": "Яндекс Музыка",
-      "titleEn": "Yandex Music"
-    },
-    {
-      "file": "bandlink.html",
-      "titleRu": "Bandlink",
-      "titleEn": "Bandlink"
-    },
-    {
-      "file": "how-we-work.html",
-      "titleRu": "Как работаем",
-      "titleEn": "How we work"
-    },
-    {
-      "file": "audit.html",
-      "titleRu": "Аудит",
-      "titleEn": "Audit"
-    }
-  ]
+  "pages": []
 }

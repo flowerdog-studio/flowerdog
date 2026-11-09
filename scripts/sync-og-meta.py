@@ -29,9 +29,7 @@ SITE_META_PAGES = {
     "index.html",
     "about.html",
     "portfolio.html",
-    "how-we-work.html",
     "soon.html",
-    "audit.html",
 }
 
 # Case pages with a hand-picked og:image (images/og/<stem>.jpg) — never
