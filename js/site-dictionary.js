@@ -8,7 +8,7 @@
         en: "Design studio. Pronounced as [kómand].\nTranslates to 'team'."
       },
       'nav.about': { ru: 'О нас', en: 'About' },
-      'nav.projects': { ru: 'Проекты', en: 'Projects' }
+      'nav.projects': { ru: 'Проекты', en: 'Work' }
     },
     tags: {
       branding: { en: 'Branding', ru: 'брендинг' },

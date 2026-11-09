@@ -26,12 +26,12 @@
     'Армения': 'Armenia',
     'Боливия': 'Bolivia',
     'Непал': 'Nepal',
-    "Кот-д'Ивуар": "Côte d'Ivoire",
+    "Кот-д'Ивуар": "Côte d’Ivoire",
     'Замбия': 'Zambia'
   };
 
   var TAG_EN = {
-    'Генерация': 'AI generation',
+    'Генерация': 'GenAI',
     'Концепция': 'Concept',
     'Кей-вижуал': 'Key visual',
     'Озвучка': 'Voiceover',
@@ -39,7 +39,7 @@
     'Иллюстрация': 'Illustration',
     'Презентация': 'Presentation',
     'Наружка': 'OOH',
-    'InApp': 'In-app'
+    'InApp': 'InApp'
   };
 
   function getI18nPack(number) {

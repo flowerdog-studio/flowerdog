@@ -386,6 +386,15 @@ def process_page(path: pathlib.Path) -> None:
         image_type=image_type,
         image_alt=title,
     )
+    # Keep the English description that language.js switches to.
+    english = re.search(r'<meta\s+name="description"[^>]*\bdata-en="([^"]*)"', html, re.I)
+    if english:
+        ru = attr_escape(description)
+        block = block.replace(
+            f'<meta name="description" content="{ru}"',
+            f'<meta name="description" data-i18n data-ru="{ru}" data-en="{english.group(1)}" content="{ru}"',
+            1,
+        )
     updated = inject_meta(html, block)
     path.write_text(updated, encoding="utf-8")
     print(f"  og:image → {image_url}")

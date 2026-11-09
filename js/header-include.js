@@ -17,7 +17,7 @@
     '</button>' +
     '<nav class="fds-header__nav">' +
     '<a class="fds-header__link" data-i18n data-key="nav.about" data-ru="О нас" data-en="About" href="about.html">О нас</a>' +
-    '<a class="fds-header__link" data-i18n data-key="nav.projects" data-ru="Проекты" data-en="Projects" href="portfolio.html">Проекты</a>' +
+    '<a class="fds-header__link" data-i18n data-key="nav.projects" data-ru="Проекты" data-en="Work" href="portfolio.html">Проекты</a>' +
     '<div class="fds-lang" aria-label="Language switcher" role="group">' +
     '<button type="button" class="fds-lang__btn is-active" data-lang-switch="ru" aria-pressed="true">РУ</button>' +
     '<button type="button" class="fds-lang__btn" data-lang-switch="en" aria-pressed="false">EN</button>' +
