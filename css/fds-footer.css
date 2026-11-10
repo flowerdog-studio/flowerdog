@@ -71,7 +71,6 @@ html.is-sheet-moving [data-fds-footer] {
 
 .fds-footer__contact-note {
   margin: 0.45em 0 0;
-  max-width: 22em;
   font-size: var(--fds-type-caption);
   font-weight: var(--fds-weight-regular);
   line-height: var(--fds-type-caption-leading);
@@ -241,10 +240,6 @@ html.is-sheet-moving .fds-reveal__stage {
   .fds-footer__nav,
   .fds-footer__legal {
     grid-column: auto;
-  }
-
-  .fds-footer__contact-note {
-    max-width: none;
   }
 
   .fds-footer__nav {
