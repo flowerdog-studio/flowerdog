@@ -22,7 +22,7 @@
 
 .fds-person__meta {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   column-gap: 0.4em;
   row-gap: 0;
@@ -40,7 +40,7 @@
 }
 
 .fds-person__meta .fds-chip {
-  margin: 0.1em 0 0;
+  margin: 0;
   font-size: inherit;
 }
 
