@@ -41,6 +41,7 @@
 
 .fds-person__meta .fds-chip {
   margin: 0.1em 0 0;
+  font-size: inherit;
 }
 
 p.fds-person__bio {
